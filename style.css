@@ -472,3 +472,35 @@ cursor:pointer;
 .hero-image.show{
     transform: translateX(0);
 }
+@media (max-width: 768px) {
+
+    .navbar{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a{
+        font-size: 0.9rem;
+    }
+  
+    .logo span{
+        font-size: 1rem; /* pehle 1.2rem tha */
+        white-space: nowrap;
+    }
+
+}
