@@ -284,11 +284,14 @@ background:rgba(0,0,0,.9);
 justify-content:center;
 align-items:center;
 z-index:9999;
+padding:20px;
 }
 
 .popup-content{
 width:90%;
 max-width:700px;
+max-height:85vh;
+overflow-y:auto;
 background:#0b0b0b;
 padding:40px;
 border-radius:20px;
@@ -381,16 +384,6 @@ font-size:3rem;
 width:250px;
 height:250px;
 }
-
-.navbar{
-flex-direction:column;
-gap:15px;
-}
-
-.nav-links{
-flex-wrap:wrap;
-justify-content:center;
-}
 }
 #contact{
 text-align:center;
@@ -479,28 +472,44 @@ cursor:pointer;
         flex-direction: row !important;
         justify-content: space-between;
         align-items: center;
+         padding:12px 10px;
+        gap:0;
     }
 
     .logo{
         margin: 0;
+        font-size:1rem;
+        white-space:nowrap;
     }
 
     .nav-links{
         display: flex;
         flex-direction: row !important;
         flex-wrap: nowrap;
-        gap: 6px;
+        gap:10px;
         margin: 0;
         padding: 0;
     }
 
     .nav-links a{
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
-  
+ 
     .logo span{
         font-size: 1rem; /* pehle 1.2rem tha */
         white-space: nowrap;
     }
+    .popup-content{
+    width:95%;
+    max-height:80vh;
+    padding:25px 20px;
+}
+
+    .close-btn{
+    top:10px;
+    right:15px;
+    font-size:30px;
+    position:sticky;
+}
 
 }
