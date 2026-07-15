@@ -277,7 +277,7 @@ box-shadow:0 0 10px #00ff88;
 transition:width 2s ease;
 }
 
-/* PROJECTS */
+PROJECTS
 
 .project-box{
 display:flex;
@@ -316,7 +316,6 @@ border-radius:10px;
 cursor:pointer;
 font-weight:600;
 }
-
 /* POPUP */
 
 .about-popup{
@@ -490,29 +489,17 @@ background:linear-gradient(
 rgba(20,20,20,.95),
 rgba(10,10,10,.95)
 );
-
 border:1px solid rgba(255,255,255,.08);
-
 border-radius:22px;
-
 padding:25px;
-
 display:flex;
-
 align-items:center;
-
 justify-content:space-between;
-
 color:white;
-
 text-decoration:none;
-
 transition:.4s ease;
-
 backdrop-filter:blur(12px);
-
 position:relative;
-
 overflow:hidden;
 }
 
@@ -566,21 +553,13 @@ rgba(10,10,10,.95)
 );
 
 border:1px solid rgba(255,255,255,.08);
-
 border-radius:22px;
-
 padding:30px;
-
 display:flex;
-
 flex-direction:column;
-
 gap:18px;
-
 backdrop-filter:blur(12px);
-
 position:relative;
-
 overflow:hidden;
 }
 
@@ -1275,4 +1254,21 @@ transform:translateX(0);
     font-size:0.98rem;
     line-height:1.15;
     margin-bottom:6px;
+}
+@media (max-width: 768px){
+
+    .grid-section{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 30px 15px;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .cards-container{
+        margin-top:40px;
+    }
+
 }
