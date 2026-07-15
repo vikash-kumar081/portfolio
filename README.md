@@ -1,4 +1,6 @@
-Vikash Kumar – Portfolio Website
+#Vikash Kumar – Portfolio Website
+
+![Portfolio Preview](portfolio%20readme.png)
 
 A professional portfolio website showcasing my technical skills, academic background, and software development projects. This portfolio serves as a central hub for recruiters, hiring managers, and collaborators to explore my work and experience.
 
