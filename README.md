@@ -43,7 +43,7 @@ Tools & Platforms
 - Git
 - GitHub
 - GitHub Pages
-- FormSubmit
+- Web3Forms
 - VS Code
 
 ---
