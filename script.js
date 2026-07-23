@@ -70,10 +70,10 @@ cards.forEach(card => {
 // TYPEWRITER EFFECT
 
 const roles = [
-    "Web Developer",
-    "C++ Programmer",
-    "Frontend Developer",
-    "B.Tech CSE Student"
+  "Full-Stack Developer",
+  "MERN Stack Developer",
+  "Problem Solver",
+  "B.Tech CSE Student"
 ];
 
 let roleIndex = 0;
